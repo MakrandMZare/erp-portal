@@ -1,0 +1,17 @@
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import AppRoutes from "./routes/AppRoutes";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+
+      <AppRoutes />
+
+      <Footer />
+    </>
+  );
+}
+
+export default App;
